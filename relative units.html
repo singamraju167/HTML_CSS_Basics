@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relative units</title>
+
+    <style>
+        .one_rem{
+            font-size:1rem;
+        }
+
+        .one_em{
+            font-size:1em;
+        }
+
+        .two_rem{
+            font-size:2rem;
+        }
+
+        .two_em{
+            font-size:2em;
+        }
+
+        .parent{
+            font-size: 30px;
+            width:300px;
+            height:300px;
+            border:1px solid black;
+        }
+
+        .one{
+            font-size: 30px;
+        }
+
+        .two{
+            font-size: 2rem;
+        }
+
+        .three{
+            font-size: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class = "one_rem">1rem</div><br>
+    <div class = "ome_em">1em</div><br>
+    <div class = "two_rem">2rem</div><br>
+    <div class = "two_em">2em</div><br>
+
+    <hr>
+
+    <div class = "parent">
+        <div class = "one_rem">1rem</div><br>
+        <div class = "ome_em">1em</div><br>
+        <div class = "two_rem">2rem</div><br>
+        <div class = "two_em">2em</div><br>
+    </div>
+
+    <div class = "one">  fs = 30px 
+        <div class = "two"> fs = 2em = 2 * 30 = 60px 
+            <div class = "three">Demo<div> fs = 2em = 2 * 60 = 120px
+        <div>
+    <div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View units</title>
+
+    <style>
+
+    .box{
+        color:white; 
+        background-color:black
+        }
+    .fifty_perc{
+        width:50%;
+        }
+
+    .parent{
+        width:135px;
+        border: 1px solid black;
+    }
+
+    .fifty_vw{
+        width:50vw;
+    }
+    .twenty_five_vh{
+        height:25vh;
+    }
+    </style>
+</head>
+<body>
+    <div class = "box fifty_perc">50%</div><br>
+    <div class = "box fifty_vw">50vw</div><br>
+    <div class = "box twenty_five_vh">25vh</div>
+
+    <hr>
+
+    <div class = "parent">
+        <div class = "box fifty_perc">50%</div><br>
+        <div class = "box fifty_vw">50vw</div><br>
+        <div class = "box twenty_five_vh">25vh</div>
+    </div>
+</body>
+</html>
